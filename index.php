@@ -14,6 +14,7 @@
         <label for="email">E-mail</label><br>
         <input type="email" name="email" required><br><br>
         <input type="submit" value="Envoyer">
+
     </form>
 
 
