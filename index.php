@@ -12,7 +12,7 @@
         <label for="Nom">Nom</label><br>
         <input type="text" name="Nom" required><br>
         <label for="email">E-mail</label><br>
-        <input type="email" name="email" required><br><br><br>
+        <input type="email" name="email" required><br><br>
         <input type="submit" value="Envoyer">
 
 
