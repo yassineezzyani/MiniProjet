@@ -1,3 +1,8 @@
+<?php
+  
+    
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -6,18 +11,13 @@
 </head>
 
 <body>
-    <form action="post.php" method="POST">
-        <label for="code">code</label><br>
-        <input type="text" name="code" required><br>
-        <label for="Nom">Nom</label><br>
-        <input type="text" name="Nom" required><br>
-        <label for="email">E-mail</label><br>
-        <input type="email" name="email" required><br><br>
-        <input type="submit" value="Envoyer">
-
-
+    <form action="Etudiant.php" method="POST">
+        <label for="CNE">code</label><br>
+        <input type="text" name="cne" required><br>
+        <label for="pass">Password</label><br>
+        <input type="password" name="pass" required><br>
+        <input type="submit">value Envoyer<br>
     </form>
-
 
 </body>
 
