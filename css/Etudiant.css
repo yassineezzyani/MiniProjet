@@ -1,0 +1,68 @@
+body{
+    background-color: tomato;
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+form{
+    width: 400px;
+    max-width: 80%;
+    position: fixed;
+    top: 40%;
+    left: 20%;
+    text-align: center  ;
+    transform: translate(-50%,-50%) scale(1);
+    transition: 50s ease-in;
+}
+#inputcne{
+    margin-left: 50px;
+    width: 300px;
+    height: 25px;
+}
+#inputnom{
+    margin-left: 44px;
+   width: 300px;
+   height: 25px;
+}
+#inputdate{
+    margin-left: 20px;
+    width: 300px;
+    height: 25px;
+}
+#inputprenom{
+    margin-left: 36px;
+    width: 300px;
+    height: 25px;
+
+}
+a{
+    margin-left: 90%;
+} a :hover{
+    background-color: chartreuse;
+}
+a input{
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+}
+form input{
+    
+    border-radius: 50px;
+    outline: none;
+    border-top: red;
+    border-left: red;
+    text-align: center;
+}
+#inputajouter{
+    background-color: rgb(6, 110, 247);
+    height: 30px;
+    width: 300px;
+    margin-left: 22%;
+   margin-top: 20px;
+   cursor: pointer;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+  
+}

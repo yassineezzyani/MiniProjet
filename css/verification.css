@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("/static/styles/libs/font-awesome/fonts/fontawesome-webfont.fdf491ce5ff5.woff");
+  }
+  
+  body {
+    font-family: "Bitstream Vera Serif Bold", serif;
+  }
+body{
+    padding: 0;
+    margin: 0;
+}
+form{
+    display: none;
+    background-color: red;
+    width: 400px;
+    max-width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center  ;
+    transform: translate(-50%,-50%) scale(1);
+    transition: 50s ease-in;
+ 
+}
+
+.label1{
+    margin-left: 1px;
+}
+.inputcne{
+    margin-left: 25px;
+}
+form button{
+margin-left: 100%;
+border: none;
+background: none;
+font-size: 30px;
+font-weight: bold;
+
+}
+#bgd_popup{
+    display: none;
+    position: fixed;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    pointer-events: none;
+}
+#btn_pr{
+margin-top: 10px;
+  margin-left: 90%;
+ background-color: #FF8338;
+  font-size: 20px;
+
+  border-radius: 16px;
+}
+#div_btnpr{
+    background-color: #BAE339;
+   height: 60px;
+}
+h1{
+    margin-top: 20%;
+    text-align: center;
+    font-size:60px;
+    font-family: "Bitstream Vera Serif Bold";
+    font-weight: bold;
+}
+form input{
+    outline: none;
+}
